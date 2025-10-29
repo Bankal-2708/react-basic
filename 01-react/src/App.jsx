@@ -1,7 +1,18 @@
+import Card from './Components/card'
 import React from 'react'
+import Navbar from './Components/navbar' 
 
-export const App = () => {
+const App=()=> {
   return (
-    <div>React app</div>
+    <div >
+      {/* {Card()} */}
+      <Navbar/>
+      <Card />
+      
+    </div>
+    
   )
 }
+
+export default App
+
