@@ -1,8 +1,15 @@
 import React from 'react'
+import PageTwoContent from './PageTwoContent'
+import { Target } from 'lucide-react'
+import Navbar2 from './Navbar2'
 
 function Section2() {
+
   return (
-    <div className='bg-red-500 h-screen w-full'>Section2</div>
+    <div className='h-screen w-full px-6 py-8 overflow-hidden'>
+      <Navbar2/>
+      <PageTwoContent/>
+    </div>
   )
 }
 

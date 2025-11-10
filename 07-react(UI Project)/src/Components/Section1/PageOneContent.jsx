@@ -4,9 +4,9 @@ import RightContent from './RightContent'
 
 function PageOneContent() {
   return (
-    <div className='flex py-10 items-center h-full'>
-        <LeftContent/>
-        <RightContent/>
+    <div className="h-full w-full px-6 py-8 flex">
+      <LeftContent />
+      <RightContent />
     </div>
   )
 }
